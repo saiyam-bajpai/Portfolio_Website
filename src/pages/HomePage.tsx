@@ -3,7 +3,7 @@ import { ContinuousCinematicJourney } from '../components/cinematic/ContinuousCi
 
 export const HomePage: React.FC = () => {
   useEffect(() => {
-    document.title = 'Saiyam Bajpai — Machine Learning, Computer Vision & Explainable AI'
+    document.title = 'Saiyam Bajpai'
   }, [])
 
   return <ContinuousCinematicJourney />
